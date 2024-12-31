@@ -2,10 +2,11 @@
 
 namespace App\Models;
 
-use Altwaireb\World\Models\Country as Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
-class Country extends Model
+class Calendar extends Model
 {
     use HasFactory;
+    protected $guarded = [];
 }
